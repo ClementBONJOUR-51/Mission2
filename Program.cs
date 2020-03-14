@@ -1,9 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
 
-class Program
+namespace Mission2
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World!");
+        static void Main(string[] args)
+        {
+            //testSQL();
+            
+        }
+    
+        static public void testSQL()
+        {
+            Connection maConnection = Connection.getPdoGsb();
+            var stm = "SELECT idvisiteur, mois, idetat FROM fichefrais WHERE fichefrais.idetat = 'VA'";
+            List<List<string>> reponse = maConnection.sendQuery(stm);
+
+            foreach (List<string> ligne in reponse)
+            {
+                foreach (string val in ligne)
+                {
+                    Console.Write(val + " ");
+                }
+                Console.WriteLine();
+            }
+
+        }
     }
 }
