@@ -8,8 +8,8 @@ namespace Mission2
         [Fact]
         public void testGetMoisPrecedent()
         {
-            DateTime dateTest = new DateTime(2020, 03, 14);
-            Assert.Equal("02", gestionDate.getMoisPrecedent(dateTest));
+            DateTime dateTest = new DateTime(2020, 01, 14);
+            Assert.Equal("12", gestionDate.getMoisPrecedent(dateTest));
             Assert.Equal("02", gestionDate.getMoisPrecedent()); //ici mettre le mois précedant du mois actuel ("02" actuellement)
         }
 
@@ -34,10 +34,10 @@ namespace Mission2
 
             Assert.Equal(true, gestionDate.entre(14,20)); // ("14/03/2020")
             Assert.Equal(true, gestionDate.entre(20,14)); // ("14/03/2020")
-            Assert.Equal(true, gestionDate.entre(10,14)); // ("14/03/2020")
-            Assert.Equal(true, gestionDate.entre(14,10)); // ("14/03/2020")
+            Assert.Equal(true, gestionDate.entre(10,16)); // ("14/03/2020")
+            Assert.Equal(true, gestionDate.entre(16,10)); // ("14/03/2020")
 
-            Assert.Equal(true, gestionDate.entre(14,14)); // ("14/03/2020")
+            Assert.Equal(true, gestionDate.entre(16,16)); // ("14/03/2020")
 
             //3 param
             Assert.Equal(true, gestionDate.entre(10,20,dateTest));
