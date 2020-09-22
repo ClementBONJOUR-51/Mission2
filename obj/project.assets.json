@@ -6673,19 +6673,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\Clément\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\Mission2\\Mission2.csproj",
+      "projectUniqueName": "E:\\sauvegarde pc portable\\documents\\Mission2\\Mission2.csproj",
       "projectName": "Mission2",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\Mission2\\Mission2.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\Mission2\\obj\\",
+      "projectPath": "E:\\sauvegarde pc portable\\documents\\Mission2\\Mission2.csproj",
+      "packagesPath": "C:\\Users\\Clément\\.nuget\\packages\\",
+      "outputPath": "E:\\sauvegarde pc portable\\documents\\Mission2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Clément\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6747,7 +6747,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

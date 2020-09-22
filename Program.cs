@@ -11,7 +11,7 @@ namespace Mission2
 
             Connection maConnection = Connection.getPdoGsb();
 
-            /*if (today.ToString("dd").Equals("01"))
+            if (today.ToString("dd").Equals("01"))
             {
                 var requete = "UPDATE fichefrais SET idetat = 'CL' WHERE mois = '" + today.ToString("yyyy") + gestionDate.getMoisPrecedent() + "' AND idetat = 'CR' ";
                 maConnection.sendNonQuery(requete);
@@ -21,7 +21,7 @@ namespace Mission2
             {
                 var requete = "UPDATE fichefrais SET idetat = 'RB' WHERE mois = '" + today.ToString("yyyy") + gestionDate.getMoisPrecedent() + "' ";
                 maConnection.sendNonQuery(requete);
-            }*/
+            }
             testSQL();
         }
 
@@ -42,3 +42,5 @@ namespace Mission2
         }
     }
 }
+
+/* dotnet run */
